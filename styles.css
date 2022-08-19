@@ -22,7 +22,7 @@ body {
 .container {
     background-color: #fff;
     max-width: 600px;
-    border-radius: 0 0 0.6rem 0.6rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
 
 .container article:first-child img {
