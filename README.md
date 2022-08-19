@@ -32,7 +32,6 @@ Your users should be able to:
 ### Screenshot
 
 ![Desktop view](./screenshot/screenshot1.png)
-![Mobile View](./screenshot/screenshot2.png)
 
 
 ### Links
