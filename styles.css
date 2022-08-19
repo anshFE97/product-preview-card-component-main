@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 0.1px);
+    margin: 0 1.5rem;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.container article:first-child img {
+    max-width: 100%;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+.container h1 {
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container ul li:first-child {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.container ul li:last-child {
+    color:hsl(228, 12%, 48%);
+}
+
+
+.container article:last-child {
+    padding: 1.5rem; 
+}
+
+h1, 
+.cost {
+    font-family: 'Fraunces', sans-serif;
+}
+
+button, li, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cost {
+    color: hsl(158, 36%, 37%);
+}
+
+.container .btn {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img:last-child {
+    margin-right: 0.5rem;
+}
+
+.container .btn:hover {
+    background-color:hsl(159, 45%, 21%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    margin-top: 2rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:650px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 0.6rem;
+    }
+
+    .container article:first-child img {
+        border-radius: 0.6rem 0 0 0.6rem;
+        height: 100%;
+    }
+   
+}
